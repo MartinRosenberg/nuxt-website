@@ -1,18 +1,7 @@
-const config = {
-	"env": {
-		"test": {
-			"presets": [
-				[
-					"@babel/preset-env",
-					{
-						"targets": {
-							"node": "current"
-						}
-					}
-				]
-			]
-		}
+export default (api) => {
+	api.cache(true)
+
+	return {
+		presets: ['@babel/preset-env'],
 	}
 }
-
-export default config

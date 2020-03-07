@@ -1,9 +1,7 @@
-
 export default {
 	mode: 'universal',
-	/*
-  ** Headers of the page
-  */
+
+	// Headers of the page
 	head: {
 		title: process.env.npm_package_name || '',
 		meta: [
@@ -15,23 +13,17 @@ export default {
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
 		],
 	},
-	/*
-  ** Customize the progress-bar color
-  */
+
+	// Customize the progress-bar color
 	loading: { color: '#fff' },
-	/*
-  ** Global CSS
-  */
-	css: [
-	],
-	/*
-  ** Plugins to load before mounting the App
-  */
-	plugins: [
-	],
-	/*
-  ** Nuxt.js dev-modules
-  */
+
+	// Global CSS
+	css: [],
+
+	// Plugins to load before mounting the App
+	plugins: [],
+
+	// Nuxt.js dev-modules
 	buildModules: [
 		'@nuxt/typescript-build',
 		// Doc: https://github.com/nuxt-community/eslint-module
@@ -39,9 +31,8 @@ export default {
 		// Doc: https://github.com/nuxt-community/stylelint-module
 		'@nuxtjs/stylelint-module',
 	],
-	/*
-  ** Nuxt.js modules
-  */
+
+	// Nuxt.js modules
 	modules: [
 		// Doc: https://bootstrap-vue.js.org
 		'bootstrap-vue/nuxt',
@@ -49,14 +40,10 @@ export default {
 		// Doc: https://github.com/nuxt-community/dotenv-module
 		'@nuxtjs/dotenv',
 	],
-	/*
-  ** Build configuration
-  */
+
+	// Build configuration
 	build: {
-		/*
-    ** You can extend webpack config here
-    */
-		extend (config, ctx) {
-		},
+		// You can extend webpack config here
+		extend (config, ctx) {},
 	},
 }

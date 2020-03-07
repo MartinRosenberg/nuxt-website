@@ -5,6 +5,7 @@ module.exports = {
 	env: {
 		browser: true,
 		es2020: true,
+		jest: true,
 		node: true,
 	},
 	extends: [
@@ -17,6 +18,7 @@ module.exports = {
 		Atomics: 'readonly',
 		SharedArrayBuffer: 'readonly',
 	},
+	parser: 'vue-eslint-parser',
 	parserOptions: {
 		ecmaFeatures: {
 			impliedStrict: true,
@@ -36,7 +38,17 @@ module.exports = {
 		'quote-props': [WARN, 'consistent-as-needed'],
 
 		// indentation
-		'indent': [WARN, 'tab'],
+		'indent': OFF,
 		'no-tabs': OFF,
+		'vue/html-indent': [WARN, 'tab'],
+		'vue/script-indent': [WARN, 'tab', { baseIndent: 1, switchCase: 1 }],
 	},
+	overrides: [
+		{
+			files: ['.js', '.ts'],
+			rules: {
+				indent: [WARN, 'tab'],
+			},
+		},
+	],
 }

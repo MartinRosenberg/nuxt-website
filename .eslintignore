@@ -1,2 +1,5 @@
 !.babelrc.js
 !.eslintrc.js
+
+.nuxt/
+node_modules/
