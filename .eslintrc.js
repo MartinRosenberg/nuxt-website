@@ -24,8 +24,9 @@ module.exports = {
 			impliedStrict: true,
 		},
 		ecmaVersion: 2020,
-		extraFileExtensions: ['vue'],
+		extraFileExtensions: ['.vue'],
 		parser: '@typescript-eslint/parser',
+		project: './tsconfig.json',
 		sourceType: 'module',
 	},
 	plugins: [
@@ -44,6 +45,12 @@ module.exports = {
 		'vue/script-indent': [WARN, 'tab', { baseIndent: 1, switchCase: 1 }],
 	},
 	overrides: [
+		{
+			files: ['.ts'],
+			rules: {
+				'@typescript-eslint/indent': [WARN, 'tab'],
+			},
+		},
 		{
 			files: ['.js', '.ts'],
 			rules: {

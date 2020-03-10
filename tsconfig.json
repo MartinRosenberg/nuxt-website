@@ -27,6 +27,21 @@
 			"@nuxt/types"
 		]
 	},
+	"include": [
+		"assets/",
+		"components",
+		"layouts",
+		"middleware",
+		"pages",
+		"plugins",
+		"store",
+		"test",
+		".babelrc.js",
+		".eslintrc.js",
+		"jest.config.js",
+		"nuxt.config.ts",
+		"stylelint.config.js"
+	],
 	"exclude": [
 		"node_modules/"
 	]

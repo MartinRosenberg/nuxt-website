@@ -8,8 +8,7 @@
 		"build": "nuxt build",
 		"dev": "nuxt",
 		"generate": "nuxt generate",
-		"lint": "eslint . --ext .js,.ts,.vue",
-		"lint:fix": "yarn lint --fix",
+		"lint": "eslint . --fix --ext .js,.ts,.vue",
 		"start": "nuxt start",
 		"test": "jest"
 	},
@@ -20,16 +19,21 @@
 	},
 	"lint-staged": {
 		"*.{css,vue}": "stylelint",
-		"*.{js,ts,vue}": "yarn lint"
+		"*.{js,ts,vue}": "eslint --cache --fix"
 	},
 	"dependencies": {
+		"@nuxt/typescript-runtime": "^0.4.0",
 		"@nuxtjs/dotenv": "^1.4.1",
 		"@nuxtjs/pwa": "^3.0.0-beta.20",
 		"bootstrap": "^4.4.1",
 		"bootstrap-vue": "^2.6.1",
-		"nuxt": "^2.11.0"
+		"jquery": "^3.4.1",
+		"nuxt": "^2.11.0",
+		"popper.js": "^1.16.1",
+		"vue": "^2.6.11"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.8.7",
 		"@nuxt/typescript-build": "^0.6.0",
 		"@nuxtjs/eslint-config": "^2.0.2",
 		"@nuxtjs/eslint-module": "^1.1.0",
@@ -48,14 +52,16 @@
 		"eslint-plugin-standard": "^4.0.1",
 		"eslint-plugin-vue": "^6.2.1",
 		"husky": "^4.2.3",
-		"jest": "^25.1.0",
+		"jest": "^24.9.0",
 		"lint-staged": "^10.0.8",
 		"stylelint": "^13.2.0",
 		"typescript": "^3.8.3",
-		"vue-jest": "^4.0.0-beta.2"
+		"vue-jest": "^4.0.0-beta.2",
+		"vue-template-compiler": "^2.6.11",
+		"webpack": "^4.42.0"
 	},
 	"engines": {
-		"node": "^13.2.0"
-	},
-	"engineStrict": true
+		"node": "^13.10.1",
+		"yarn": "^1.22.0"
+	}
 }

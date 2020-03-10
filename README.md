@@ -1,22 +1,34 @@
-# martinbrosenberg.com
+# nuxt-website
 
-> Martin Rosenberg&#39;s website
+> For detailed explanation on how things work, check out the [Nuxt.js docs](https://nuxtjs.org).
 
-## Build Setup
+## Install dependencies
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+```bash
+yarn install
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Develop
+
+Serve with hot reload at `http://localhost:3000/`.
+
+```bash
+yarn dev
+```
+
+## Build
+
+Build for production and launch the server.
+
+```bash
+yarn build
+yarn start
+```
+
+## Generate static site
+
+Generate a static website to serve on Netlify (or the like).
+
+```bash
+yarn generate
+```
