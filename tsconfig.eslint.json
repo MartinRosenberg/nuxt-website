@@ -1,0 +1,17 @@
+{
+	"extends": "./tsconfig.json",
+	"include": [
+		"assets/",
+		"components/",
+		"config/",
+		"layouts/",
+		"middleware/",
+		"pages/",
+		"plugins/",
+		"store/",
+		"test/",
+		".babelrc.js",
+		".eslintrc.js",
+		"husky.config.js"
+	]
+}

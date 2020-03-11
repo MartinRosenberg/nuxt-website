@@ -1,25 +1,16 @@
 {
-	"name": "martinbrosenberg.com",
+	"name": "nuxt-website",
 	"version": "1.0.0",
 	"private": true,
 	"description": "Martin Rosenberg's website",
 	"author": "Martin Rosenberg",
 	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt",
-		"generate": "nuxt generate",
-		"lint": "eslint . --fix --ext .js,.ts,.vue",
-		"start": "nuxt start",
-		"test": "jest"
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged"
-		}
-	},
-	"lint-staged": {
-		"*.{css,vue}": "stylelint",
-		"*.{js,ts,vue}": "eslint --cache --fix"
+		"build": "nuxt build --config config/nuxt.config.ts",
+		"dev": "nuxt --config config/nuxt.config.ts",
+		"generate": "nuxt generate --config config/nuxt.config.ts",
+		"lint": "eslint . --fix --ext .js,.ts,.vue --ignore-path config/.eslintignore # -c .eslintrc.js",
+		"start": "nuxt start --config config/nuxt.config.ts",
+		"test": "jest -c config/jest.config.js"
 	},
 	"dependencies": {
 		"@nuxt/typescript-runtime": "^0.4.0",

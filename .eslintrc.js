@@ -26,7 +26,7 @@ module.exports = {
 		ecmaVersion: 2020,
 		extraFileExtensions: ['.vue'],
 		parser: '@typescript-eslint/parser',
-		project: './tsconfig.json',
+		project: 'tsconfig.eslint.json',
 		sourceType: 'module',
 	},
 	plugins: [
@@ -35,6 +35,7 @@ module.exports = {
 	],
 	root: true,
 	rules: {
+		'arrow-parens': [WARN, 'always'],
 		'comma-dangle': [WARN, 'always-multiline'],
 		'quote-props': [WARN, 'consistent-as-needed'],
 

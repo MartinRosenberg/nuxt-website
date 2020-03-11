@@ -1,0 +1,15 @@
+## Do lint config files
+
+!.babelrc.js
+!.eslintrc.js
+!husky.config.js
+!jest.config.js
+!lint-staged.config.js
+!nuxt.config.ts
+!stylelint.config.js
+
+## Don't lint generated files
+
+.nuxt/
+node_modules/
+static/sw.js

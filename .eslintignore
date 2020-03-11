@@ -1,6 +1,0 @@
-!.babelrc.js
-!.eslintrc.js
-
-.nuxt/
-node_modules/
-static/sw.js
