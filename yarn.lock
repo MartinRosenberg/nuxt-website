@@ -5541,11 +5541,6 @@ flat-cache@^2.0.1:
     rimraf "2.6.3"
     write "1.0.3"
 
-flatpickr@^4.6.1, flatpickr@^4.6.3:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.3.tgz#15a8b76b6e34e3a072861250503a5995b9d3bc60"
-  integrity sha512-007VucCkqNOMMb9ggRLNuJowwaJcyOh4sKAFcdGfahfGc7JQbf94zSzjdBq/wVyHWUEs5o3+idhFZ0wbZMRmVQ==
-
 flatted@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
@@ -8667,11 +8662,6 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
-
-nouislider@^14.1.1:
-  version "14.1.1"
-  resolved "https://registry.yarnpkg.com/nouislider/-/nouislider-14.1.1.tgz#def812b2aaaa2ccf9e7a41dd0144a25dab5673e5"
-  integrity sha512-3/+Z/pTBoWoJf2YXSEWRmS27LW2XxOBmGEzkPyRzB/J6QvL+0mS3QwcQp0SmWhgO5CMzbSxPmb1lDDD4HP12bg==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -12648,13 +12638,6 @@ vue-eslint-parser@^7.0.0:
     esquery "^1.0.1"
     lodash "^4.17.15"
 
-vue-flatpickr-component@^8.1.5:
-  version "8.1.5"
-  resolved "https://registry.yarnpkg.com/vue-flatpickr-component/-/vue-flatpickr-component-8.1.5.tgz#a7a7978d0034c8e44cf1527442d100c0655882fb"
-  integrity sha512-whrR+WM7fWyHW+1ZxCx7uVSuOlTeZXEMzhsgcILXGxIzQxr5uX5RlS5amLXdGGSSVf+zukrb6MvYit/uIkhk3Q==
-  dependencies:
-    flatpickr "^4.6.1"
-
 vue-functional-data-merge@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/vue-functional-data-merge/-/vue-functional-data-merge-3.1.0.tgz#08a7797583b7f35680587f8a1d51d729aa1dc657"
@@ -12676,11 +12659,6 @@ vue-jest@^4.0.0-beta.2:
     extract-from-css "^0.4.4"
     source-map "^0.5.6"
     ts-jest "^23.10.5"
-
-vue-lazyload@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.3.3.tgz#4df50a271bde9b74c3caf7a228d6e0af50d5682f"
-  integrity sha512-uHnq0FTEeNmqnbBC2aRKlmtd9LofMZ6Q3mWvgfLa+i9vhxU8fDK+nGs9c1iVT85axSua/AUnMttIq3xPaU9G3A==
 
 vue-loader@^15.8.3:
   version "15.9.0"
@@ -12705,7 +12683,7 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-router@^3.1.3, vue-router@^3.1.6:
+vue-router@^3.1.3:
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.6.tgz#45f5a3a3843e31702c061dd829393554e4328f89"
   integrity sha512-GYhn2ynaZlysZMkFE5oCHRUTqE8BWs/a9YbKpNLi0i7xD6KG1EzDqpHQmv1F5gXjr8kL5iIVS8EOtRaVUEXTqA==
@@ -12744,11 +12722,6 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
-
-vue2-transitions@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/vue2-transitions/-/vue2-transitions-0.3.0.tgz#765fc0d743103fcfe2d10f431697d8873a075c17"
-  integrity sha512-m1ad8K8kufqiEhj5gXHkkqOioI5sW0FaMbRiO0Tv2WFfGbO2eIKrfkFiO3HPQtMJboimaLCN4p/zL81clLbG4w==
 
 vue@^2.6.11:
   version "2.6.11"
