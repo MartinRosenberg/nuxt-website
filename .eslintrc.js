@@ -35,6 +35,7 @@ module.exports = {
 	],
 	root: true,
 	rules: {
+		// general
 		'arrow-parens': [WARN, 'always'],
 		'comma-dangle': [WARN, 'always-multiline'],
 		'quote-props': [WARN, 'consistent-as-needed'],
@@ -45,6 +46,10 @@ module.exports = {
 		'@typescript-eslint/indent': OFF,
 		'vue/html-indent': [WARN, 'tab'],
 		'vue/script-indent': [WARN, 'tab', { baseIndent: 1, switchCase: 1 }],
+
+		// vue
+		'vue/require-default-prop': OFF,
+		'vue/require-prop-types': OFF,
 	},
 	overrides: [
 		{
