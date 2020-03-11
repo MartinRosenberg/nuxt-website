@@ -8,7 +8,9 @@
 		"build": "nuxt-ts build",
 		"dev": "nuxt-ts",
 		"generate": "nuxt-ts generate",
-		"lint": "eslint . --fix --ext .js,.ts,.vue",
+		"lint": "yarn lint:code && yarn lint:style",
+		"lint:code": "eslint . --fix --ext .js,.ts,.vue",
+		"lint:style": "stylelint '**/*.{css,sass,scss}' --fix",
 		"start": "nuxt-ts start",
 		"test": "jest"
 	},
@@ -52,6 +54,7 @@
 		"lint-staged": "^10.0.8",
 		"node-sass": "^4.13.1",
 		"sass-loader": "^8.0.2",
+		"sort-package-json": "^1.40.0",
 		"stylelint": "^13.2.1",
 		"typescript": "^3.8.3",
 		"vue-jest": "^4.0.0-beta.2",
