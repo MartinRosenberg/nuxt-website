@@ -5,12 +5,12 @@
 	"description": "Martin Rosenberg's website",
 	"author": "Martin Rosenberg",
 	"scripts": {
-		"build": "nuxt build --config config/nuxt.config.ts",
-		"dev": "nuxt --config config/nuxt.config.ts",
-		"generate": "nuxt generate --config config/nuxt.config.ts",
-		"lint": "eslint . --fix --ext .js,.ts,.vue --ignore-path config/.eslintignore # -c .eslintrc.js",
-		"start": "nuxt start --config config/nuxt.config.ts",
-		"test": "jest -c config/jest.config.js"
+		"build": "nuxt build",
+		"dev": "nuxt",
+		"generate": "nuxt generate",
+		"lint": "eslint . --fix --ext .js,.ts,.vue",
+		"start": "nuxt start",
+		"test": "jest"
 	},
 	"dependencies": {
 		"@nuxt/typescript-runtime": "^0.4.0",

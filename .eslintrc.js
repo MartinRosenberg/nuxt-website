@@ -26,7 +26,7 @@ module.exports = {
 		ecmaVersion: 2020,
 		extraFileExtensions: ['.vue'],
 		parser: '@typescript-eslint/parser',
-		project: 'tsconfig.eslint.json',
+		project: 'tsconfig.json',
 		sourceType: 'module',
 	},
 	plugins: [
