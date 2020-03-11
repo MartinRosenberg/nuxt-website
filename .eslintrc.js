@@ -40,22 +40,23 @@ module.exports = {
 		'quote-props': [WARN, 'consistent-as-needed'],
 
 		// indentation
-		'indent': OFF,
 		'no-tabs': OFF,
+		'indent': OFF,
+		'@typescript-eslint/indent': OFF,
 		'vue/html-indent': [WARN, 'tab'],
 		'vue/script-indent': [WARN, 'tab', { baseIndent: 1, switchCase: 1 }],
 	},
 	overrides: [
 		{
-			files: ['.ts'],
+			files: ['*.js'],
 			rules: {
-				'@typescript-eslint/indent': [WARN, 'tab'],
+				indent: [WARN, 'tab'],
 			},
 		},
 		{
-			files: ['.js', '.ts'],
+			files: ['*.ts'],
 			rules: {
-				indent: [WARN, 'tab'],
+				'@typescript-eslint/indent': [WARN, 'tab'],
 			},
 		},
 	],

@@ -16,10 +16,10 @@
 		"baseUrl": "./",
 		"paths": {
 			"~/*": [
-				"./*"
+				"./src/*"
 			],
 			"@/*": [
-				"./*"
+				"./src/*"
 			]
 		},
 		"types": [
@@ -29,16 +29,7 @@
 		]
 	},
 	"include": [
-		"@types/",
-		"assets/",
-		"components/",
-		"config/",
-		"layouts/",
-		"middleware/",
-		"pages/",
-		"plugins/",
-		"store/",
-		"test/",
+		"src/",
 		".babelrc.js",
 		".eslintrc.js",
 		"husky.config.js",
