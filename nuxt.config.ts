@@ -26,7 +26,9 @@ export default {
 	],
 
 	// Global CSS
-	css: [],
+	css: [
+		'@/assets/primitive/main.scss',
+	],
 
 	// Headers of the page
 	head: {
